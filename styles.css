@@ -229,6 +229,19 @@ h2 {
     var(--card-color);
 }
 
+.entry-head--illustrated {
+  align-items: center;
+  gap: .5rem;
+}
+
+.entry-art {
+  display: block;
+  width: clamp(4.25rem, 12vw, 7.25rem);
+  height: auto;
+  margin-block: -.5rem;
+  margin-inline-start: auto;
+}
+
 h3 {
   font-size: 1.28rem;
   line-height: 1.25;
